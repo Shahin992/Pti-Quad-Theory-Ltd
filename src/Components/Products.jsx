@@ -67,7 +67,7 @@ const Products = () => {
                 {/* Recommended section */}
 
                 <div className="flex justify-between my-8">
-                    <h2 className="text-3xl font-bold">Recommended</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold">Recommended</h2>
                     <div className="flex justify-center items-center">
                     <Link to={'./addItems'}>
                        <p className="text-orange-400 text-xl ">Add More</p>

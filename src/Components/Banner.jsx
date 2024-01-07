@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <div>
             <div className="my-10 hero  rounded-3xl md:bg-amber-400">
-  <div className="hero-content flex-col lg:flex-row">
+  <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="">    <img src={image1} className=" rounded-lg " />
 </div>
    
