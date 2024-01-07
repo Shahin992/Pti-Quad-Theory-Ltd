@@ -1,6 +1,7 @@
 import { FaAngleDown } from "react-icons/fa6";
 import { FaSearch } from 'react-icons/fa';
 import { BiUser } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -13,7 +14,9 @@ const Navbar = () => {
       </div>
      
     </div>
+    <Link to={'./'}>
     <a className="btn btn-ghost text-4xl font-extrabold">pti.</a>
+    </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

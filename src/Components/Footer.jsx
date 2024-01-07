@@ -8,19 +8,19 @@ const Footer = () => {
         <div>
             <footer className="footer p-10 bg-amber-400 text-black">
   <aside>
-    <form class="mt-6">
-        <div class="relative max-w-lg">
-          <label class="sr-only" for="email"> Email </label>
+    <form className="mt-6">
+        <div className="relative max-w-lg">
+          <label className="sr-only" > Email </label>
 
           <input
-            class="w-[300px] md:w-[500px] rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium"
+            className="w-[300px] md:w-[500px] rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium"
             id="email"
             type="email"
             placeholder="Enter your mail"
           />
 
           <button
-            class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-orange-500 px-5 py-3 text-sm font-medium text-white"
+            className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-orange-500 px-5 py-3 text-sm font-medium text-white"
           >
            <p className="flex justify-center items-center gap-2">
            Subscribe

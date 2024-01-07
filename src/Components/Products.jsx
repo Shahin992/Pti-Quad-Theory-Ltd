@@ -1,7 +1,9 @@
 /* eslint-disable react/jsx-key */
+
 import { useEffect, useState } from "react";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const Products = () => {
@@ -32,7 +34,9 @@ const Products = () => {
                 <div className="flex justify-between my-8">
                     <h2 className="text-3xl font-bold">Popular</h2>
                     <div className="flex justify-center items-center">
-                        <p className="text-orange-400 text-xl ">Add More</p>
+                       <Link to={'./addItems'}>
+                       <p className="text-orange-400 text-xl ">Add More</p>
+                       </Link>
                         <div className="flex justify-center gap-1 items-center">
                         <MdOutlineKeyboardArrowLeft className="size-8" />
                         <MdOutlineKeyboardArrowRight className="size-8" />
@@ -65,7 +69,9 @@ const Products = () => {
                 <div className="flex justify-between my-8">
                     <h2 className="text-3xl font-bold">Recommended</h2>
                     <div className="flex justify-center items-center">
-                        <p className="text-orange-400 text-xl ">Add More</p>
+                    <Link to={'./addItems'}>
+                       <p className="text-orange-400 text-xl ">Add More</p>
+                       </Link>
                         <div className="flex justify-center gap-1 items-center">
                         <MdOutlineKeyboardArrowLeft className="size-8" />
                         <MdOutlineKeyboardArrowRight className="size-8" />

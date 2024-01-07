@@ -4,6 +4,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import HomePage from './Components/HomePage.jsx'
 import Root from './Root.jsx'
+import AddItems from './Components/AddItems.jsx'
 
 
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage></HomePage>,
+      },
+      {
+        path: "/addItems",
+        element: <AddItems></AddItems>
       }
     ]}])
 
